@@ -21,7 +21,7 @@
     },
     "GithubRepoSecretId": {
       "Type": "String",
-      "Default": "GithubRepoAccess",
+      "Default": "GithubRepoAccessTest",
       "Description": "The name/ID of the SecretsManager secret that contains the personal access token for the github repo."
     },
     "GithubRepoSecretJSONKey": {
