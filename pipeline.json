@@ -12,11 +12,11 @@
       "Description": "Name of codebuild image to use."
     },
     "GithubOwner": {
-      "Type": "minhthang29",
+      "Type": "String",
       "Description": "The github owner or org name of the repository."
     },
     "GithubRepoName": {
-      "Type": "Chalice_CD_test",
+      "Type": "String",
       "Description": "The name of the github repository."
     },
     "GithubRepoSecretId": {
