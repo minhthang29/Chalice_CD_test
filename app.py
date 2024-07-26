@@ -7,6 +7,6 @@ app = Chalice(app_name='hello')
 def index():
     return {'hello': 'world'}
 
-@app.route('/blog')
+@app.route('/blogs')
 def index():
     return {'My blog': 'This is Stephen blog!'}
