@@ -7,6 +7,10 @@ app = Chalice(app_name='hello')
 def index():
     return {'hello': 'world'}
 
+@app.route('/blog')
+def index():
+    return {'My blog': 'THis is Stephen blog!'}
+
 
 # The view function above will return {"hello": "world"}
 # whenever you make an HTTP GET request to '/'.
